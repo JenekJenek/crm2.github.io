@@ -1,4 +1,4 @@
-const myWeigh = 95;
-const speedLight = 3e8;
+// const myWeigh = 95;
+// const speedLight = 3e8;
 
-console.log(myWeigh * speedLight**2)
+// console.log(myWeigh * speedLight**2)

@@ -1,25 +1,38 @@
-{
-const nameProduct = "Пальто";
-const quantityGoods = "Количество товара";
-const categoryGoods = "Категория товара";
-const priceGoods = "Цена товара";
+// {
+// const nameProduct = "Пальто";
+// const quantityGoods = "Количество товара";
+// const categoryGoods = "Категория товара";
+// const priceGoods = "Цена товара";
 
-console.log (nameProduct);
-}
+// console.log (nameProduct);
+// }
 
 {
 const nameProductGet = prompt('Наименование товара :');
 const quantityGoods = prompt("Выберите количество товара: ");
-let quantityGoods_num = Number(quantityGoods);
+const quantityGoods_num = Number(quantityGoods);
+if (quantityGoods_num > 0) {
+
+} else {
+    alert("Вы ввели некорректные данные")
+}
+
 const categoryGoods = prompt('Категория товара');
 const priceGoods = prompt('Цена товара');
-let priceGoods_num = Number(priceGoods);
+const priceGoods_num = Number(priceGoods);
+if (priceGoods_num > 0) {
 
-console.log (typeof nameProductGet)
-console.log (typeof quantityGoods_num)
-console.log (typeof categoryGoods)
-console.log (typeof priceGoods_num)
+} else {
+    alert("Вы ввели некорректные данные")
+}
 
-console.log("На складе " + nameProductGet + " в количестве: " + quantityGoods_num + " из категории: " + categoryGoods + " на сумму: " + priceGoods * quantityGoods_num)
+
+
+// console.log (typeof nameProductGet)
+// console.log (typeof quantityGoods_num)
+// console.log (typeof categoryGoods)
+// console.log (typeof priceGoods_num)
+
+// console.log("На складе " + nameProductGet + " в количестве: " + quantityGoods_num + " из категории: " + categoryGoods + " на сумму: " + priceGoods * quantityGoods_num)
 }
 
